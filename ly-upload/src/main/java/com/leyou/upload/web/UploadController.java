@@ -22,6 +22,7 @@ public class UploadController {
      */
     @PostMapping("image")
     public ResponseEntity<String> uploadImage(@RequestParam("file")MultipartFile file){
+        System.out.println();
         return ResponseEntity.ok(uploadService.upload(file));
     }
 }
