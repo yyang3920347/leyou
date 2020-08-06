@@ -10,3 +10,9 @@ spring:
     virtual-host: /leyou
   redis:
     host: 192.168.38.130
+ly:
+  sms:
+    accessKeyId:  # 你自己的accessKeyId
+    accessKeySecret:  # 你自己的AccessKeySecret
+    signName: 乐优商城 # 签名名称
+    verifyCodeTemplate: SMS_169895807 # 模板名称
